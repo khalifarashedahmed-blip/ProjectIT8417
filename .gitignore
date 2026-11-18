@@ -1,0 +1,12 @@
+# secrets - never commit
+passwords.txt
+githubEmails.txt
+.env
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+.venv/
+
+# course brief
+*.pdf
