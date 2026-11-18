@@ -5,7 +5,7 @@ from pathlib import Path
 from extract_load import databricks_connection
 
 SQL_DIR = Path(__file__).resolve().parent / "sql"
-STEPS = ["staging.sql"]
+STEPS = ["staging.sql", "gold.sql"]
 
 
 def statements(path):
